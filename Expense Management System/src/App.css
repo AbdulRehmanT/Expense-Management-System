@@ -1,0 +1,42 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+input{
+  padding: 0.6em 1.2em;
+}
+
+select{
+  padding: 0.6em 1.2em;
+}
+
+.input-container{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.output-list{
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.total-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.output-container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.unorder-container{
+  width: 50%;
+}

@@ -80,7 +80,6 @@ function App() {
                 <li key={index} className='output-list'>
                   {data.amount} {data.type}
                   <button onClick={() => delExpense(index)}>Delete</button>
-                  <button onClick={() => editExpense(index)}>Edit</button>
                 </li>
               );
             })}
